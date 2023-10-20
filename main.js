@@ -1,5 +1,7 @@
-const scriptURL =
-  "https://script.google.com/macros/s/AKfycbx-qudksqWALRZVU57nQqPfOtOjcTIjUnJrEBX0eyIidjL7Ozx8EwopDq7q5kBZnqH6Bw/exec";
+
+
+const scriptURL = process.env.SCRIPT_URL;
+  
 
 const form = document.forms["mill-form"];
 
